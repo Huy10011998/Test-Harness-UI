@@ -1,0 +1,13 @@
+.error__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: 20px 0;
+}
+
+.error__message {
+  color: #d63031;
+  border: 1px solid #d63031;
+  padding: 10px;
+}

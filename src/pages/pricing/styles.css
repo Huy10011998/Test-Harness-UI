@@ -1,0 +1,126 @@
+/* TODO: Pricing */
+.section.banner[_ngcontent-kde-c45] {
+  padding: 140px 0px 0px;
+  text-align: center;
+}
+.section.banner[_ngcontent-kde-c45] h1 {
+  text-align: center;
+}
+.section.banner[_ngcontent-kde-c45] h1[_ngcontent-kde-c45] {
+  text-align: center;
+  font-size: 48px;
+  font-family: "Inter", system-ui;
+  color: #6415ff;
+}
+.footer-pricing {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.section__container[_ngcontent-kde-c45] {
+  /* background: url(https://treact.owaiskhan.me/static/media/prototype-illustration.21bc4b3f.svg)
+    center center no-repeat;
+  background-position: bottom right; */
+}
+.section__container[_ngcontent-kde-c45] {
+  box-shadow: 0 18px 15px 0 rgb(0 0 0 / 10%);
+}
+.section.packages[_ngcontent-kde-c45] {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0 160px;
+}
+.section.packages[_ngcontent-kde-c45] .package_pricing[_ngcontent-kde-c45] {
+  display: flex;
+  flex-direction: column;
+  width: calc(50% - 16px);
+  background-color: #fff;
+  border: 2px solid #6415ff;
+  border-radius: 5px;
+  margin-bottom: 32px;
+}
+.section.packages[_ngcontent-kde-c45] .package__price[_ngcontent-kde-c45],
+.section.packages[_ngcontent-kde-c45] .package__title[_ngcontent-kde-c45] {
+  text-align: center;
+  background-color: #6415ff;
+}
+.section.packages[_ngcontent-kde-c45]
+  .package__price[_ngcontent-kde-c45]
+  label[_ngcontent-kde-c45] {
+  font-size: 20.8px;
+  padding: 8px;
+  color: #fff;
+}
+.section.packages[_ngcontent-kde-c45] .package__title[_ngcontent-kde-c45] {
+  padding: 16px;
+  border-bottom: 2px solid;
+  font-size: 20.8px;
+  font-weight: 700;
+  color: #fff;
+}
+.section.packages[_ngcontent-kde-c45]
+  .package__price[_ngcontent-kde-c45]
+  h4[_ngcontent-kde-c45] {
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 64px;
+  padding-bottom: 16px;
+  font-family: "Inter", system-ui;
+  margin: 0px 0px 8px;
+  color: #fff;
+}
+.section.packages[_ngcontent-kde-c45]
+  .package__description[_ngcontent-kde-c45] {
+  padding: 16px 48px;
+  flex-grow: 1;
+}
+.package__description[_ngcontent-kde-c45] li:before {
+  content: "";
+  font-family: FontAwesome;
+  color: #6415ff;
+}
+.package__description li:not(:last-child) {
+  border-bottom: 1px solid #eaeaea;
+}
+.package__description li {
+  color: #333;
+  text-align: center;
+  padding: 9.6px 0;
+  font-size: 16px;
+  list-style: none;
+}
+.package__action[_ngcontent-kde-c45] {
+  text-align: center;
+  margin-bottom: 32px;
+  width: auto;
+  align-self: center;
+}
+.package__action[_ngcontent-kde-c45] a {
+  color: #6415ff;
+}
+.button {
+  cursor: pointer;
+  display: inline-block;
+  padding: 10px 8px;
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  margin: 0 4.8px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #6415ff;
+  color: #6415ff;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 1268px) {
+  .section.packages[_ngcontent-kde-c45] {
+    padding: 0px 15px;
+    flex-direction: column;
+    text-align: center;
+  }
+  .section.packages[_ngcontent-kde-c45] .package_pricing[_ngcontent-kde-c45] {
+    width: auto;
+  }
+}
+/* /Pricing */

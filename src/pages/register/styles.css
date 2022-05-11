@@ -1,0 +1,167 @@
+/* SignUp */
+.auth-form__logo {
+  margin: 30px 0 !important;
+}
+.intro-signup {
+  background: url(https://treact.owaiskhan.me/static/media/signup-illustration.2876a99f.svg)
+    no-repeat;
+  display: flex;
+  background-color: #faf5ff;
+  background-position: center center;
+  min-height: 600px;
+  background-size: contain;
+  flex: 0 0 490px;
+  padding: 0 80px;
+}
+.content-signup {
+  display: flex;
+  width: 100%;
+  padding: 0px 12px;
+  position: relative;
+  overflow: auto;
+  background-color: #fff;
+  /* height: 100vh; */
+}
+.text-signup h3 {
+  font-family: "Inter", system-ui;
+  font-size: 30px;
+  color: #6415ff;
+  font-weight: 900;
+  margin: 10px 0px 10px;
+}
+.text-signup .text-acc-signup {
+  font-size: 17.6px;
+  color: #6415ff;
+  font-weight: 500;
+}
+
+.text-signup .btn-custom-login-signup {
+  color: #fff;
+  background-color: #6415ff;
+  width: 90px;
+  margin: 8px 0px;
+  cursor: pointer;
+  font-size: 17.6px;
+  display: inline-block;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #6415ff;
+  transition: all 0.5s;
+}
+.text-signup .btn-custom-signup:hover {
+  color: #6415ff;
+  background-color: #6415ff;
+}
+.footer {
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.intro-input-login .btn-custom-signup {
+  color: #fff;
+  background-color: transparent;
+  width: 50%;
+  margin: 8px 0px;
+  cursor: pointer;
+  font-size: 17.6px;
+  display: inline-block;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 50px;
+  background: #6415ff;
+  border: 2px solid #6415ff;
+  transition: all 0.5s;
+}
+.intro-input-login .btn-custom-signup:hover {
+  color: #6415ff;
+  background-color: #ffffff;
+}
+.field {
+  margin: 10px 0;
+}
+.auth-form[_ngcontent-ved-c54]
+  .field[_ngcontent-ved-c54]
+  label[_ngcontent-ved-c54] {
+  text-transform: none;
+  color: #6415ff;
+}
+.login-line {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.login-line .text-acc-signup {
+  margin-right: 5px;
+}
+.login-line a {
+  color: #6415ff;
+  font-size: 17.6px;
+}
+.field label {
+  display: block;
+  color: #718096;
+  font-family: "Inter", system-ui;
+  font-size: 16px;
+  margin: 0;
+}
+input,
+select,
+textarea {
+  width: 100%;
+  margin: 4px 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  border-bottom: 2px solid #6415ff;
+  text-indent: 16px;
+  font-size: 17.6px;
+  height: 45px;
+}
+input,
+select,
+textarea:focus {
+  outline: none;
+}
+
+.img-signup {
+  width: 350px;
+}
+
+@media screen and (max-width: 1268px) {
+  .content-signup {
+    flex-direction: column;
+  }
+  .intro-signup {
+    display: none !important;
+  }
+  .pd-signup {
+    padding: 0px 10px;
+  }
+  .intro-input-login .btn-custom-signup-1 {
+    color: #fff;
+    background-color: #6415ff;
+    width: 90px;
+    margin: 8px 0px;
+    cursor: pointer;
+    font-size: 17.6px;
+    display: inline-block;
+    padding: 10px 8px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid #6415ff;
+    transition: all 0.5s;
+  }
+
+  .content-signup {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 1268px) {
+  .intro-input-login .btn-custom-signup-1 {
+    display: none !important;
+  }
+}

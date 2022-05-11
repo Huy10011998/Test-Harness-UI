@@ -1,0 +1,39 @@
+.functionality__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .functionality__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .functionality__title {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .functionality__body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .functionality__description {
+      color: #929191;
+    }
+
+    .functionality__button {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 20px;
+      text-transform: uppercase;
+      background-color: #6415ff;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: none;
+    }
+  }
+}

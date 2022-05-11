@@ -1,0 +1,75 @@
+.section_container_about_us {
+  background-color: #4a2abf;
+  padding-top: 76px;
+  padding-bottom: 48px;
+  animation: fadeInAnimation 1s;
+}
+
+.section__container_about_us-wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.section_banner_about_us {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section_banner_about_us h1 {
+  font-size: 36px;
+  font-family: "Inter", system-ui;
+  margin: 24.12px 0px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.section_item_about_us p {
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  font-weight: 500;
+  color: #fff;
+}
+
+.section_banner_about_us_item h4 {
+  font-size: 26px;
+  font-family: "Inter", system-ui;
+  font-weight: 800;
+  margin: 0px 0px 8px;
+  color: #fff;
+}
+
+.section_item_about_us > li {
+  display: list-item;
+}
+
+.section_item_about_us > ul {
+  list-style-type: disc;
+  color: #fff;
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  font-weight: 500;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 568px) {
+  .section_banner_about_us {
+    justify-content: center;
+  }
+
+  .section_banner_about_us_item {
+    text-align: center;
+  }
+
+  .section_item_about_us p {
+    padding: 0px 10px;
+  }
+}

@@ -1,0 +1,54 @@
+.section_container_assurance {
+  background-color: #4a2abf;
+  padding-top: 76px;
+  padding-bottom: 48px;
+  animation: fadeInAnimation 1s;
+}
+
+.section_container_assurance_wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.section_banner_assurance {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section_banner_assurance h1 {
+  font-size: 36px;
+  font-family: "Inter", system-ui;
+  margin: 24.12px 0px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.section_item_assurance p {
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  font-weight: 500;
+  color: #fff;
+}
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 568px) {
+  .section_banner_assurance {
+    text-align: center;
+  }
+
+  .section_item_assurance p {
+    padding: 0px 10px;
+  }
+
+  .section_item_testing p {
+    padding: 0px 10px;
+  }
+}

@@ -1,0 +1,39 @@
+.testexecution__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .testexecution__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .testexecution__title {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .testexecution__body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .testexecution__description {
+      color: #929191;
+    }
+
+    .testexecution__button {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 20px;
+      text-transform: uppercase;
+      background-color: #6415ff;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: none;
+    }
+  }
+}

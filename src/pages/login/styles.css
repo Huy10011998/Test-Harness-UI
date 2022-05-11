@@ -1,0 +1,169 @@
+/*TODO: Login */
+.container-login .container-card {
+  background-color: #ffffff;
+}
+.iconBack-login {
+  cursor: pointer;
+  width: 32px;
+  height: 32px;
+  color: #6415ff;
+}
+.line-login {
+  border-top: 0.1px solid #eee;
+}
+.height-header-login {
+  height: 65px;
+  padding: 16px 48px;
+}
+.intro-login {
+  background: url(https://treact.owaiskhan.me/static/media/signup-illustration.2876a99f.svg)
+    no-repeat;
+  display: flex;
+  background-color: #faf5ff;
+  background-position: center center;
+  min-height: 600px;
+  background-size: contain;
+  flex: 0 0 490px;
+  padding: 0 80px;
+}
+.text-Sign {
+  /* text-align: center; */
+}
+.content-login {
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: auto;
+}
+.intro-input-login {
+  padding: 0px 112px;
+  flex-grow: 1;
+}
+.text-Sign h3 {
+  font-family: "Inter", system-ui;
+  font-size: 30px;
+  color: #6415ff;
+  font-weight: 900;
+  margin: 10px 0px 10px;
+}
+.text-Sign .text-acc {
+  font-size: 15px;
+  font-weight: 500;
+  color: #6415ff;
+}
+.text-Sign .btn-custom-login {
+  color: #fff;
+  background-color: #6415ff;
+  width: 200px;
+  margin: 16px 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 10px;
+  border: 2px solid #6415ff;
+  transition: all 0.5s;
+}
+.text-Sign .btn-custom-forgot {
+  color: #fff;
+  background-color: #6415ff;
+  width: fit-content;
+  margin: 0px 4.8px;
+  cursor: pointer;
+  font-size: 15px;
+  display: inline-block;
+  padding: 10px 8px;
+  text-align: center;
+  border-radius: 10px;
+  font-weight: 700;
+  border: 2px solid #6415ff;
+  transition: all 0.5s;
+}
+/* .text-Sign .btn-custom-login:hover {
+    color: #6415FF;
+    background-color: #fff;
+} */
+.auth-form__logo {
+  margin: 48px 0px;
+  text-align: center;
+}
+.input-login .pd-bottom {
+  margin-bottom: 50px;
+}
+.input-login .style-input {
+  height: 40px;
+  font-size: 15px;
+  background-color: #fff;
+  padding: 7px 16px;
+  border: 2px solid #6415ff;
+}
+.style-forgot {
+  padding: 40px 0px 20px;
+  margin: 0px 0px 8px;
+  width: auto;
+}
+.style-forgot a {
+  color: #6415ff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.style-forgot-password {
+  font-size: 15px;
+  margin: 0px 0px 8px;
+  margin-bottom: 50px;
+}
+.btn-custom-login-1 {
+  cursor: pointer;
+  display: inline-block;
+  padding: 6px 8px;
+  margin: 0 4.8px;
+  font-size: 15px;
+  font-weight: 700;
+  height: 40px;
+  color: #ffffff;
+  border: 0px solid;
+  text-transform: uppercase;
+  background-color: #6415ff;
+  width: 90px;
+  text-align: center;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+@media screen and (max-width: 1268px) {
+  .intro-login {
+    display: none !important;
+  }
+  .intro-input-login {
+    padding: 0px 15px;
+  }
+  .width-img {
+    width: 350px;
+  }
+  .btn-custom-login-media {
+    color: #fff;
+    background-color: #6415ff;
+    width: 200px;
+    margin: 16px 0;
+    cursor: pointer;
+    font-size: 15px;
+    display: inline-block;
+    padding: 6px 8px;
+    text-align: center;
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #6415ff;
+    transition: all 0.5s;
+  }
+  .height-header-login {
+    height: 65px;
+    padding: 16px 16px;
+  }
+}
+@media screen and (min-width: 1268px) {
+  .btn-custom-login-media {
+    display: none !important;
+  }
+}
+/* /Login */

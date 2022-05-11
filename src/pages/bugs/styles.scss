@@ -1,0 +1,39 @@
+.bugs__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .bugs__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .bugs__title {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .bugs__body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .bugs__description {
+      color: #929191;
+    }
+
+    .bugs__button {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 20px;
+      text-transform: uppercase;
+      background-color: #6415ff;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: none;
+    }
+  }
+}

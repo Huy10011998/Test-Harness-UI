@@ -1,0 +1,14 @@
+.success__container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  flex-grow: 1;
+  margin: 20px 0;
+}
+
+.success__message {
+  color: #5af0a9;
+  border: 1px solid #5af0a9;
+  font-weight: bold;
+  padding: 10px;
+}

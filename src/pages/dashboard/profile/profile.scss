@@ -1,0 +1,71 @@
+.content-first {
+    background: #e0e0e0;
+    box-shadow: inset 7px 7px 14px #d7d7d7, inset -7px -7px 14px #e9e9e9;
+    padding: 20px;
+    .profile-title {
+      margin-bottom: 40px;
+      h5 {
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: capitalize;
+      }
+    }
+    .custom-label {
+      font-weight: 400;
+      font-size: 16px;
+      margin: 0;
+    }
+    .custom-input {
+      width: 100%;
+      padding: 7px 16px;
+      border: 1px solid;
+      outline: none;
+      font-size: 15px;
+    }
+    .password,
+    .confirm-password {
+      margin-top: 20px;
+    }
+    .update-button {
+      padding: 18px 14px 0;
+      .btn-update {
+        background-color: #6415ff;
+        color: #fff;
+        padding: 11px 18px;
+        font-size: 14px;
+      }
+    }
+  }
+  .content-second {
+    margin-top: 30px;
+    padding: 20px;
+    background: linear-gradient(145deg, #cacaca, #f0f0f0);
+    box-shadow: 13px 13px 17px #c1c1c1, -13px -13px 17px #ffffff;
+    .profile-title-status {
+      h5 {
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        text-transform: capitalize;
+      }
+    }
+    .profile-sub-status {
+      margin-top: 40px;
+    }
+    .action-buttons {
+      padding-top: 20px;
+      .btn {
+        padding: 11px 18px;
+      }
+      .btn-change {
+        background-color: #6415ff;
+        color: #fff;
+      }
+      .btn-cancel {
+        margin-left: 10px;
+        border: 1px solid #000;
+      }
+    }
+  }
+  

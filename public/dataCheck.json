@@ -1,0 +1,168 @@
+{
+  "checkId": "1625717680",
+  "totalUrls": "30",
+  "brokenUrls": "9",
+  "byLinkType": [
+    {
+      "name": "CSS",
+      "num": "3"
+    },
+    { "name": "html", "num": "163" },
+    { "name": "image", "num": "10" }
+  ],
+  "bySource": [
+    { "name": "Hyperlink", "num": "665" },
+    { "name": "Start URL", "num": "1" },
+    { "name": "link tag", "num": "37" },
+    { "name": "script tag", "num": "28" }
+  ],
+
+  "byProtocol": [
+    { "name": "http", "num": "10" },
+    { "name": "https", "num": "721" }
+  ],
+  "byHosts": [
+    { "name": "content.yudu.com", "num": "1" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" },
+    { "name": "education-forum.co.uk", "num": "2" }
+  ],
+  "tableCheck": [
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/package/python",
+      "parentUrl": "N/a",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#signin",
+      "parentUrl": "https://www.npmjs.com/#search",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/products",
+      "parentUrl": "https://www.npmjs.com/#signin",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/products/pro",
+      "parentUrl": "https://www.npmjs.com/products",
+      "contentType": "text/html"
+    },
+    {
+      "status": "400",
+      "url": "https://www.npmjs.com/products/teams",
+      "parentUrl": "https://www.npmjs.com/products/pro",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://docs.npmjs.com",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://npm.community",
+      "parentUrl": "https://docs.npmjs.com",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com",
+      "parentUrl": "https://npm.community",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "400",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "400",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    },
+    {
+      "status": "200",
+      "url": "https://www.npmjs.com/#search",
+      "parentUrl": "https://www.npmjs.com/package/python",
+      "contentType": "text/html"
+    }
+  ]
+}

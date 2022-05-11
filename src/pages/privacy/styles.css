@@ -1,0 +1,118 @@
+.section_container_privacy {
+  /* background-image: url(https://treact.owaiskhan.me/static/media/stats-illustration.89e20edc.svg); */
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-top: 76px;
+  animation: fadeInAnimation 1s;
+  background-color: #4a2abf;
+}
+
+.section_container_privacy_wrapper {
+  max-width: 1600px;
+  margin: auto;
+}
+
+.section__container_privacy {
+  padding-bottom: 48px;
+}
+
+.section_banner_privacy {
+  height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+.section_banner_privacy h1 {
+  font-size: 36px;
+  font-family: "Inter", system-ui;
+  margin: 24.12px 0px;
+  color: #fff;
+  font-weight: 900;
+}
+
+.section_item_privacy p {
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  font-weight: 500;
+  color: #fff;
+  text-align: justify;
+  line-height: normal;
+}
+
+.section_item_privacy h4 {
+  font-size: 26px;
+  font-family: "Inter", system-ui;
+  font-weight: 800;
+  margin: 0px 0px 8px -40px;
+  color: #fff;
+}
+
+.section_item_privacy li {
+  display: list-item;
+}
+
+.section_item_privacy ol {
+  list-style-type: decimal;
+  color: #fff;
+  font-size: 17.6px;
+  font-family: "Inter", system-ui;
+  font-weight: 500;
+}
+
+.style_link a {
+  color: #6415ff;
+}
+
+.table tbody {
+  border: 2px solid #fff;
+}
+
+.table tbody > tr {
+  background-color: rgba(255, 255, 255, 0.5);
+  font-weight: 500;
+}
+
+.table tbody > tr > td {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table thead > tr > th {
+  font-weight: 500;
+
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.table thead {
+  border: 2px solid #fff;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media (max-width: 1650px) {
+  .section_banner_privacy {
+    justify-content: center;
+  }
+
+  .section_item_privacy h4 {
+    text-align: center;
+  }
+
+  .section_banner_privacy h1 {
+    padding: 0px 12px;
+  }
+
+  .section_item_privacy h4 {
+    padding: 0px 12px;
+  }
+
+  .section_item_privacy {
+    padding: 0px 12px;
+  }
+}

@@ -1,0 +1,296 @@
+.smoke-testing__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 100%;
+  .smoke-testing__wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    .smoke-testing__title {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .smoke-testing__body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+    .smoke-testing__description {
+      color: #929191;
+    }
+
+    .smoke-testing__button {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 20px;
+      text-transform: uppercase;
+      background-color: #6415ff;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: none;
+    }
+  }
+
+  .url {
+    font-size: 16px;
+  }
+  .content {
+    display: flex;
+    margin-top: 20px;
+    .date-time {
+      margin: 0 5px;
+      font-weight: bold;
+    }
+  }
+  .status {
+    display: flex;
+    margin-top: 20px;
+    &.fail {
+      color: #f05e59;
+    }
+    time {
+      margin: 0 5px;
+    }
+  }
+  .detail-wrapper {
+    margin-top: 20px;
+  }
+  .table-wrapper {
+    width: 100%;
+    overflow-x: auto;
+    .table {
+      width: fit-content;
+      margin-top: 20px;
+      border: 1px solid #c1c1c1;
+      max-width: unset;
+      .thead,
+      .tbody {
+        .tr {
+          width: 100%;
+          display: flex;
+          justify-content: space-between;
+          &.not-found {
+            justify-content: center;
+            height: 50px;
+            align-items: center;
+          }
+          &:nth-child(even) {
+            background: #ebebeb;
+          }
+          &:last-child {
+            .td {
+              border-bottom: none;
+            }
+          }
+          .th {
+            font-weight: bold !important;
+            text-align: center !important;
+            border-bottom: 1px solid #c1c1c1;
+            color: #020202 !important;
+          }
+          .th,
+          .td {
+            border-bottom: 1px solid #c1c1c1;
+            border-right: 1px solid #c1c1c1;
+            padding: 10px;
+            &:first-child {
+              width: 160px;
+            }
+            &:nth-child(2) {
+              width: 235px;
+            }
+            &:nth-child(3) {
+              width: 275px;
+            }
+            &:nth-child(4) {
+              width: 78px;
+              text-transform: capitalize;
+              color: #5af0a9;
+              font-weight: bold;
+              &.failed {
+                color: #f05e59;
+              }
+            }
+            &:nth-child(5) {
+              width: 350px;
+              justify-content: flex-start;
+              text-align: justify;
+              color: #5af0a9;
+              font-weight: bold;
+              &.failed {
+                color: #f05e59;
+              }
+            }
+            &:nth-child(6) {
+              width: 150px;
+            }
+            &:nth-child(7) {
+              width: 150px;
+            }
+            &:last-child {
+              width: 160px;
+              &.action {
+                .btn {
+                  color: #ffffff;
+                  margin-right: 5px;
+                  border: none;
+                  &.btn-pass {
+                    background-color: #5af0a9;
+                  }
+                  &.btn-fail {
+                    background-color: #f05e59;
+                  }
+                }
+              }
+            }
+          }
+          .td {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+        }
+      }
+    }
+    .table-detail {
+      .thead,
+      .tbody {
+        .tr {
+          .th,
+          .td {
+            border-bottom: 1px solid #c1c1c1;
+            border-right: 1px solid #c1c1c1;
+            padding: 10px;
+            &:first-child {
+              width: 400px;
+            }
+            &:nth-child(2) {
+              width: 150px;
+              text-transform: capitalize;
+              color: #5af0a9;
+              font-weight: bold;
+              &.failed {
+                color: #f05e59;
+              }
+            }
+            &:nth-child(3) {
+              width: 875px;
+              justify-content: flex-start;
+              text-align: justify;
+              color: #5af0a9;
+              font-weight: bold;
+              &.failed {
+                color: #f05e59;
+              }
+            }
+            &:last-child {
+              width: 133px;
+              color: #020202;
+              font-weight: normal;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.modal {
+  font-size: 12px;
+  &.open {
+    display: block;
+    background: #ffffff;
+    width: 500px;
+    height: 400px;
+    position: absolute;
+    margin: auto;
+    padding: 20px 0;
+  }
+}
+.overlay {
+  position: fixed; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  &.open {
+    display: block;
+  }
+}
+.modal > .header {
+  padding: 0 20px 20px;
+  color: #f05e59;
+  font-weight: bold;
+  border: none;
+  width: 100%;
+  font-size: 18px;
+}
+.modal > .content {
+  width: 100%;
+  padding: 0 20px;
+  textarea {
+    height: 240px;
+    resize: none;
+    border: 2px solid #6415ff;
+  }
+  .des {
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+.modal > .actions {
+  margin: auto;
+}
+.modal > .actions {
+  width: 100%;
+  padding: 10px 5px;
+  text-align: center;
+}
+.modal > .close {
+  right: 6px;
+  top: 3px;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #020202;
+  cursor: pointer;
+  position: absolute;
+  padding: 2px 5px;
+  line-height: 20px;
+  font-size: 24px;
+  background: #ffffff;
+  border-radius: 18px;
+}
+.modal .footer {
+  padding: 10px 20px 0;
+  display: flex;
+  flex-direction: unset !important;
+  justify-content: space-between !important;
+}
+.action-newAdd {
+  margin-top: 15px;
+  .btn-newAdd {
+    padding: 11px 18px;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 600;
+  }
+  .btn-cancel {
+    padding: 11px 18px;
+    color: #f05e59;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+}

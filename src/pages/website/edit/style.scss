@@ -1,0 +1,31 @@
+.content-edit {
+  padding-top: 30px;
+  display: flex;
+  justify-content: space-between;
+  .edit-wrapper {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    .title-checkin {
+      width: 140px;
+      font-size: 16px;
+      margin: 0;
+      text-align: center;
+    }
+    .time-loading {
+      width: 100%;
+      padding: 0;
+    }
+  }
+  .btn-save-change {
+    padding: 11px 18px;
+    background-color: #6415ff;
+    color: #fff;
+    font-weight: 600;
+  }
+}
+
+.clear {
+  clear: both;
+}

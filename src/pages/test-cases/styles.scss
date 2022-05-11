@@ -1,0 +1,39 @@
+.testcase__content {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+
+  .testcase__wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .testcase__title {
+      font-size: 20px;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+  }
+
+  .testcase__body {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 20px;
+
+    .testcase__description {
+      color: #929191;
+    }
+
+    .testcase__button {
+      display: flex;
+      flex-grow: 1;
+      margin-top: 20px;
+      text-transform: uppercase;
+      background-color: #6415ff;
+      color: #ffffff;
+      cursor: pointer;
+      padding: 10px 20px;
+      border: none;
+    }
+  }
+}
