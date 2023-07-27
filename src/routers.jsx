@@ -41,6 +41,7 @@ const PrivateRoute = ({ component: Component, ...rest }) => {
 
 const AppRouter = () => {
   const history = createBrowserHistory();
+
   return (
     <Router history={history}>
       <AuthProvider>

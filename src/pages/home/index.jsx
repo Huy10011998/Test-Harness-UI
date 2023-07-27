@@ -36,7 +36,7 @@ const HomePage = () => {
       {/* <Gallery data={landingPageData.Gallery} /> */}
       <Contact data={landingPageData.Contact} />
       <Footer />
-      {/* <Testimonials data={landingPageData.Testimonials} /> */}
+      <Testimonials data={landingPageData.Testimonials} />
     </React.Fragment>
   );
 };
